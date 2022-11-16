@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background: black
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 70px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.descricao{
+    border-top: 0.4px solid rgb(255, 255, 255);
+    margin-bottom: 48px;
+}
+
+.descricao-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricao-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.descricao-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+}
+
+.descricao-principal-escrito-subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.descricao-principal-escrito-botao{
+    background-color: #00a99d;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.descricao-principal-escrito-botao-link{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.descricao-principal-escrito-botao:hover {
+    background-color: rgba(110, 152, 152, 0.53);
+}
+
+.descricao-principal-imagem{
+    height: 400px;
+    padding: 80px;
+}
+
+.descricao-secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.descricao-secundaria-titulo{
+    border-top: 0.4px solid rgb(255, 255, 255);
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.descricao-secundaria-paragrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rodape{
+    border-top: 0.4px solid rgb(255, 255, 255);
+    margin-bottom: 48px;
+    padding: 32px;
+}
+
+.rodape-imagem{
+height: 220px;
+display: block;
+margin: 0 auto;
+}
